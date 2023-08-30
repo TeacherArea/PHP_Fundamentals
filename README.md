@@ -2,7 +2,7 @@
 
 ![PHP Logo](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1459870313PHP-logo.svg.png)
 
-[PHP Hem](../README.md) | [PHP Grunder](grund/README.md) | [Ett CMS: Joomla](../joomla/README.md)
+[PHP Hem](README.md) | [Databas och inmatning](small_project/README.md)
 
 ## Innehåll
 1. [Basic input och output](#basic-input-och-output)
