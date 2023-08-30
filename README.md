@@ -14,7 +14,7 @@
 7. [Texthantering](#texthantering)
 8. [Superglobaler](#superglobaler)
 9. [Get och Post](#get-och-post)
-10. [Säkerhetsfunktioner](#säkerhetsfunktioner)
+10. [Säkerhetsfunktioner](#säkerhetsfunktioner)git
 11. [Kakor](#kakor)
 12. [Sessioner](#sessioner)
 13. [Filhantering](#filhantering)
