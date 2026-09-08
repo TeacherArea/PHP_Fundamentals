@@ -33,8 +33,14 @@ En övning för att demonstrera skillnader och likheter
 [Innehållsförtekning](#innehåll)
 
 ## Variabler
-
-Lorem ipsum
+En variabel i PHP deklareras genom att skriva $ och ange ett namn. PHP använder flera olika datatyper, som 
+- strings
+- integers
+- floats
+- boolean
+- arrays
+- null
+- objects
 
 [Innehållsförtekning](#innehåll)
 
