@@ -33,7 +33,8 @@ En övning för att demonstrera skillnader och likheter
 [Innehållsförtekning](#innehåll)
 
 ## Variabler
-En variabel i PHP deklareras genom att skriva $ och ange ett namn. PHP använder flera olika datatyper, som 
+En variabel i PHP deklareras genom att skriva $ och ange ett namn. PHP använder flera olika datatyper, som
+
 - strings
 - integers
 - floats
@@ -42,11 +43,19 @@ En variabel i PHP deklareras genom att skriva $ och ange ett namn. PHP använder
 - null
 - objects
 
+Notera speciellt hur PHP använder sig av associativa arrayer, vilket innebär namngivna nycklar istället för numeriska index. Mer om dem längre fram.
+
 [Innehållsförtekning](#innehåll)
 
 ## Operatorer
 
-Lorem ipsum
+Utöver vanliga aritmetiska och tilldelande operatorer, är det av vikt att notera hur PHP använder sig av jämförande och logiska operatorer.
+| == / ===| jämför om samma / identisk (både värde/datatyp) |
+| <> != | inte samma |
+| !== | inte identisk |
+| < > <= >= | mindre/större/upp till/ner till |
+| && | logiskt och |
+| \|\| | logiskt eller |
 
 [Innehållsförtekning](#innehåll)
 
