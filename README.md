@@ -50,6 +50,9 @@ Notera speciellt hur PHP använder sig av associativa arrayer, vilket innebär n
 ## Operatorer
 
 Utöver vanliga aritmetiska och tilldelande operatorer, är det av vikt att notera hur PHP använder sig av jämförande och logiska operatorer.
+
+| Syntax | Beskrivning |
+| ----------- | ----------- |
 | == / ===| jämför om samma / identisk (både värde/datatyp) |
 | <> != | inte samma |
 | !== | inte identisk |
@@ -61,19 +64,36 @@ Utöver vanliga aritmetiska och tilldelande operatorer, är det av vikt att note
 
 ## Loopar
 
-Lorem ipsum
+En mindre demonstration av
+
+- while
+- do-while
+- for
+- foreach
 
 [Innehållsförtekning](#innehåll)
 
 ## Funktioner
 
-Lorem ipsum
+Definieras med ordet "function" följt av ett namn. PHP använder även pilfunktioner (arrow functions), alltså förenklade funktioner.
 
 [Innehållsförtekning](#innehåll)
 
 ## Arrayer
 
-Lorem ipsum
+På arrayer kan man använda ett drygt 60-talet inbyggda funktioner i PHP. Några av de mer viktiga är
+
+- count()
+- in_array()
+- array_combine()
+- array_flip
+- array_keys()
+- range()
+- array_map()
+- array_filter()
+- sort()
+
+vilka demonstreras under arrayer.
 
 [Innehållsförtekning](#innehåll)
 
