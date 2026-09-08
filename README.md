@@ -23,8 +23,12 @@
 16. [Objektorientering](#objektorientering)
 
 ## Basic input och output
-
-Lorem ipsum
+En övning för att demonstrera skillnader och likheter
+- echo
+- print
+- print_r()
+- var_dump()
+- var_export()
 
 [Innehållsförtekning](#innehåll)
 
