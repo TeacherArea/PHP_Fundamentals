@@ -1,6 +1,7 @@
 <?php
     // prova med exempelkod <script>alert('Hi! Bad code incoming.')</script> i input
-    //prova även utan htmlspecialchars i email, och lista ut vilket filter som ska användas
+    //prova även utan htmlspecialchars i email, och lista ut vilket filter som ska användas.
+    // jämför exempel under formuläret
 
     if(isset($_POST['submit'])){
         $name = htmlspecialchars($_POST['name']);
@@ -39,5 +40,27 @@
             <input type="submit" value="Skicka" name="submit">
         </div>
     </form>
+
+    <? pho 
+        echo htmlspecialchars(
+        $_POST['email'],
+        ENT_QUOTES,
+        'UTF-8'
+            );
+
+        $email = filter_input(
+            INPUT_POST,
+            'email',
+            FILTER_VALIDATE_EMAIL
+        );
+
+        if ($email !== false && $email !== null) {
+            echo htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
+        } else {
+            echo 'Ogiltig e-postadress';
+        }
+
+       ?>
 </body>
 </html>
+

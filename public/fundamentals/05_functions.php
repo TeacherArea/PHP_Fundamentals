@@ -1,7 +1,9 @@
 <?php
     function aGoodName($phoneNo, $street){
         $age = 7777;
-        echo 'Hello ' . $age + $phoneNo . '<br>' . $street;
+        $number = 12;
+        $ses = $age * number;
+        echo 'Hello, några variabler: ' . ($age + $phoneNo) . '<br>' . $street . ' Och resultatet: ' . $res;
     }
 
     // echo $age; fungerar inte så $age är lokal, jmf lokala/globala variabler

@@ -5,7 +5,8 @@
         setcookie('name', htmlspecialchars($_POST['name']), time() +  300);
     }
 
-    // man kan manuellt rensa i kod med att sätta $_COOKIE['name', '', time() - 1]; 
+    // Radera en cookie genom att sätta utgångstiden till det förflutna:
+    // setcookie('name', '', time() - 3600);
 ?>
 
 <!DOCTYPE html>

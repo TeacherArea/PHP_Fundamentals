@@ -1,5 +1,5 @@
 <?php
-    $file = 'anotherfolder/users.txt';
+    $file = __DIR__ . '/media/users.txt';
 
     if(file_exists($file)){
         echo readfile($file) . '<br><br>'; //kan enbart läsa

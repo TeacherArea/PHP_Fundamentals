@@ -44,7 +44,7 @@
             <input type="submit" value="Skicka" name="skicka">
         </div>
     </form>
-    <p>väldigt osäkert och fungerar kanske bäst med sök</p>
+    <p>Tänk på att både POST och GET måste hanteras säkert (inte som här), båda kräver korrekt hantering av indata och HTTPS för skydd under överföringen.</p>
 
     <h3>Formulär med POST</h3>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">

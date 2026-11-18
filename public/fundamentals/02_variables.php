@@ -10,11 +10,11 @@
         objects
     */
 
-$aName = 'Sewilius'; // string
+$aName = 'Ahmed Eriksson'; // string
 $age = 27; // integers
 $kinder_age = 1.5; //float
 $is_teacher = true; //boolean
-echo $aName . ' ' . $age . ' is a lousy teacher: ';
+echo $aName . ' ' . $age . ' is a nice guy: ';
 var_export($is_teacher);
 echo '<br><br>';
 
